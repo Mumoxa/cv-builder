@@ -15,11 +15,3 @@ export type CvSkill = {
   level?: 'basic' | 'good' | 'strong';
   proofLink?: string;
 };
-
-export type CvDocument = {
-  id: string;
-  name: string;
-  contact: string;
-  location?: string;
-  summary?: string;
-  jobs: Cv
