@@ -9,13 +9,6 @@ export type CvJob = {
   achievements: string[];
 };
 
-export type CvEducation = {
-  id: string;
-  institution: string;
-  name: string;
-  year?: string;
-};
-
 export type CvSkill = {
   id: string;
   name: string;
@@ -26,8 +19,7 @@ export type CvSkill = {
 export type CvDocument = {
   id: string;
   name: string;
-  phone?: string;
-  email?: string;
+  contact: string;
   location?: string;
   summary?: string;
   jobs: Cv
