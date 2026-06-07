@@ -26,4 +26,8 @@ export type CvSkill = {
 export type CvDocument = {
   id: string;
   name: string;
-  phone
+  phone?: string;
+  email?: string;
+  location?: string;
+  summary?: string;
+  jobs: Cv
