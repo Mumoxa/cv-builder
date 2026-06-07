@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Mumoxa CV Builder",
+    "slug": "mumoxa-cv-builder",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "platforms": ["android"],
+    "userInterfaceStyle": "light"
+  }
+}
